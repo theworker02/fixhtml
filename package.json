@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/fixhtml",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fix config/html key checks for twelve-factor services.",
+  "bin": {
+    "fixhtml": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/fixhtml.git"
+  },
+  "homepage": "https://theworker02.github.io/fixhtml/",
+  "keywords": [
+    "fix",
+    "html",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
